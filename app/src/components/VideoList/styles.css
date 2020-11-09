@@ -1,0 +1,20 @@
+.grid {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  margin: 5px 0;
+  grid-template-columns: 150px 1fr;
+  grid-template-rows: 150px;
+  grid-gap: 5px;
+}
+
+.item {
+  grid-column-start: 2;
+}
+
+.card {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}

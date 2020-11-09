@@ -1,0 +1,38 @@
+.subtitle {
+  font-size: 14px !important;
+  color: #606060;
+}
+
+.title {
+  font-size: 16px !important;
+  color: #030303;
+}
+
+.card-image,
+section {
+  max-width: 185px;
+  max-height: 172px;
+  width: 100%;
+  height: 100%;
+}
+section {
+  margin: 0 0 1.5rem 0 !important;
+}
+
+.info {
+  max-height: 80px;
+  margin: 0;
+  padding: 0rem 0.5rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.auth {
+  background: rgb(181, 247, 58);
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  margin: 0 1rem 0 0;
+}
