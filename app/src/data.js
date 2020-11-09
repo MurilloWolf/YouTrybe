@@ -37,9 +37,9 @@ export default {
       thumbnail: 'https://i.ytimg.com/vi/Rk7hD7A1MNo/hqdefault.jpg?sqp=-oaymwEZCPYBEIoBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLD6TJBezLBAwUWED5vsm-Fz_dXBAQ',
     },
     {
-      title: 'Softskills com a Jade',
+      title: 'Como ler mãos com a Jade',
       subtitle: '956m visualiuzações - 2 semana atrás',
-      thumbnail: 'https://github.com/MurilloWolf/YouTrybe/blob/main/app/src/assests/imgs/jade.jpeg',
+      thumbnail: 'https://github.com/MurilloWolf/YouTrybe/blob/main/app/src/assests/imgs/jade.jpeg?raw=true',
     },
   ],
 };

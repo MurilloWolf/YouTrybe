@@ -10,7 +10,7 @@
 
 .card-image {
   max-width: 185px;
-  max-height: 172px;
+  max-height: 103px;
   width: 100%;
   height: 100%;
 }
@@ -20,11 +20,12 @@ section {
   width: 100%;
   height: auto;
   transition: all ease-in-out 0.2s;
-  margin: 0 1rem 1.5rem 0 !important;
+  margin: 1rem 1.5rem 0 !important;
 }
 
 section:hover {
   transform: translate(0, -10px);
+  background: #eee;
 }
 
 .info {

@@ -9,12 +9,9 @@ class Card extends React.Component {
       <section>
         <img className="card-image" alt="" src={thumbnail} />
         <div className="info">
-
           <div>
             <h6 className="title">
-
               {title}
-
             </h6>
             <p className="subtitle">
               {subtitle}
