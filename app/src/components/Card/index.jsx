@@ -3,16 +3,23 @@ import './styles.css';
 // eslint-disable-next-line react/prefer-stateless-function
 class Card extends React.Component {
   render() {
+    // eslint-disable-next-line react/prop-types
+    const { title, subtitle, thumbnail } = this.props;
     return (
       <section>
-        <img className="card-image" alt="" src="https://s3.amazonaws.com/gupy5/production/companies/1673/career/2546/images/2020-10-08_20-12_institutionalImage1.png" />
+        <img className="card-image" alt="" src={thumbnail} />
         <div className="info">
-          <div className="auth">
-            <img alt="" src="" />
-          </div>
+
           <div>
-            <h6 className="title"> Title </h6>
-            <p className="subtitle">Subtitle </p>
+            <h6 className="title">
+
+              {title}
+
+            </h6>
+            <p className="subtitle">
+              {subtitle}
+
+            </p>
           </div>
         </div>
       </section>

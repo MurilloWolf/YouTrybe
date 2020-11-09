@@ -10,9 +10,6 @@
 
 .item {
   grid-column-start: 2;
-}
-
-.card {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-evenly;
